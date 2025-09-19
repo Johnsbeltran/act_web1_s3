@@ -10,7 +10,7 @@ while (!contrasenaValida) {
     break;
   }
 
-  //validacion
+
   let tieneMayuscula = false;
   let tieneMinuscula = false;
   let tieneNumero = false;
