@@ -6,7 +6,6 @@ const LIMITE = 10;
 
 
 for (let numeroTabla = 1; numeroTabla <= LIMITE; numeroTabla++) {
-  
 
     console.log(`\n--- Tabla del ${numeroTabla} ---`);
 
