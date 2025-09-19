@@ -20,7 +20,6 @@ for (let valor = 2; valor <= 12; valor++) {
     let porcentajeActual = ((registroSuma[valor] / totalTiros) * 100).toFixed(2);
     console.log(`Suma ${valor}: ${registroSuma[valor]} veces (${porcentajeActual}%)`);
 }
-
 let sumaPredominante = 0;
 let maxRepeticiones = 0;
 
