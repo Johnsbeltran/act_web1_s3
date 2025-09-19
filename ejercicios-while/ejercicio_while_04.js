@@ -6,5 +6,4 @@ while (numeroAleatorio !== 50) {
     intentos++;
     console.log(`Intento ${intentos}: El número es ${numeroAleatorio}`);
 }
-
 console.log(`¡Encontrado! El número 50 salió después de ${intentos} intentos.`);
