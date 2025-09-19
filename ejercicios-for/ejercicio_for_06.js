@@ -8,6 +8,6 @@ function obtenerPotencia(numero, potencia) {
     for (let contador = 0; contador < potencia; contador++) {
       valor *= numero;
     }
-  
+
     return valor;
 }
