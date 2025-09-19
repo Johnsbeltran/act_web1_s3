@@ -20,5 +20,5 @@ let ejemplo4 = "A man, a plan, a canal: Panama";
 
 console.log(`'${ejemplo1}' es un palíndromo? ${verificarPalindromo(ejemplo1)}`);
 console.log(`'${ejemplo2}' es un palíndromo? ${verificarPalindromo(ejemplo2)}`);
-console.log(`'${ejemplo3}' es un palíndromo? ${verificarPalindromo(ejemplo3)}`);
-console.log(`'${ejemplo4}' es un palíndromo? ${verificarPalindromo(ejemplo4)}`);
+
+
