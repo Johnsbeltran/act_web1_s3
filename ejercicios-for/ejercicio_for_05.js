@@ -8,6 +8,5 @@ let textoReverso = "";
 for (let indice = textoInicial.length - 1; indice >= 0; indice--) {
   textoReverso += textoInicial[indice];
 }
-
 console.log("Cadena original:", textoInicial);
 console.log("Cadena invertida:", textoReverso);
