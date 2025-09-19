@@ -18,7 +18,6 @@ while (indice < numeros.length && !encontrado) {
         indice++;
     }
 }
-
 if (encontrado) {
     console.log(`¡Éxito! El número ${numeroBuscado} se encontró en la posición ${indice}.`);
 } else {
