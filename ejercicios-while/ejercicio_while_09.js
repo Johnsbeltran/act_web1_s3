@@ -11,7 +11,6 @@ while (!entradaValida) {
         entradaValida = true;
     }
 }
-
 console.log('¡El número secreto ha sido establecido!');
 console.log('Jugador 2: Tienes 7 intentos para adivinar el número.');
 
