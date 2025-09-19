@@ -10,7 +10,6 @@ for (let indice = 0; indice < texto.length; indice++) {
 
   conteoLetras[simbolo] = (conteoLetras[simbolo] || 0) + 1;
 }
-
 let letrasOrdenadas = Object.keys(conteoLetras).sort();
 
 console.log("Frecuencia de caracteres en la cadena:");
