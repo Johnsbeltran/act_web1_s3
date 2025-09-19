@@ -1,18 +1,37 @@
-function calcularFactorial(numero) {
-    if (numero < 0) {
-        return "El factorial no está definido para números negativos.";
-    }
-    let factorial = 1;
-    let contador = numero; 
-    while (contador > 1) { 
-        factorial *= contador; 
-        contador--;         
-    }
-    return factorial;
-}       
-const numero = 5;
-const resultado = calcularFactorial(numero);
+/*
+ * Calcula el factorial de un número usando un bucle while.
+ * @param {number} n El número entero no negativo cuyo factorial se va a calcular.
+ * @returns {number} El factorial de n.
+ */
+function calcularFactorial(n) {
+  // Verificamos si el número es negativo, ya que el factorial no está definido para ellos.
+  if (n < 0) {
+    return 'El factorial no está definido para números negativos.';
+  }
 
-console.log(`El factorial de ${numero} es ${resultado}.`);  // Ejercicio While 5: Factorial de un Número
---- IGNORE ---
--// Crea un programa que calcule el factorial de un número dado por el usuario          
+  // El factorial de 0 es 1.
+  if (n === 0) {
+    return 1;
+  }
+
+  // Inicializamos el resultado en 1 y un contador en el número dado.
+  const resultado = 1;
+  const i = n;
+
+  // Usamos un bucle while para multiplicar desde n hasta 1.
+  while (i > 0) {
+    resultado *= i; // resultado = resultado * i
+    i--; // Decrementamos el contador.
+  }
+
+  return resultado;
+}
+
+const numero = parseInt(prompt('Ingresa un número para calcular su factorial:'));
+
+if (isNaN(numero)) {
+  console.log('Por favor, ingresa un número válido.');
+} else {
+  const factorial = calcularFactorial(numero);
+  console.log(`El factorial de ${numero} es ${factorial}`);
+}

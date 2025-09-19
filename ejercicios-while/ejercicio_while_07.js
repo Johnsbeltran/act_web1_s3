@@ -1,23 +1,20 @@
-const readline = require("readline");
+const numero = parseInt(prompt("Ingrese un número entero para contar sus dígitos:"));
 
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout
-});
 
-rl.question("Ingrese un número entero: ", (input) => {
-  let n = Math.abs(parseInt(input));
-  let digitos = 0;
+const contador = 0;
 
-  if (n === 0) {
-    digitos = 1;
-  } else {
-    while (n > 0) {
-      n = Math.floor(n / 10);
-      digitos++;
-    }
+if (isNaN(numero)) {
+  console.log("Entrada no válida. Por favor, ingrese un número entero.");
+} else if (numero === 0) {
+  contador = 1;
+  console.log(`El número ${numero} tiene ${contador} dígito.`);
+} else {
+  const numTemp = Math.abs(numero);
+
+
+  while (numTemp > 0) {
+    numTemp = Math.floor(numTemp / 10);
+    contador++;
   }
-
-  console.log("Cantidad de dígitos:", digitos);
-  rl.close();
-});
+  console.log(`El número ${numero} tiene ${contador} dígitos.`);
+}

@@ -1,10 +1,17 @@
-let a = 0, b = 1;
-let contador = 0;
-console.log("Serie de Fibonacci:");
-while (contador < 10) {
+const a = 0;
+const b = 1;
+
+const contador = 0;
+
+while (contador < 20) {
     console.log(a);
-    let siguiente = a + b;
+
+    const c = a + b;
+
     a = b;
-    b = siguiente;
+    b = c;
+
     contador++;
-} 
+}
+
+console.log(b);

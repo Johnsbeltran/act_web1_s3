@@ -1,8 +1,7 @@
-et numero = 1;
-
-while (numero <= 50) {
-    if (numero % 3 === 0 || numero % 5 === 0) {
-        console.log(numero);
+const contador = 1
+while (contador <= 50) {
+    if (contador % 3 === 0 && contador % 5 === 0) {
+        console.log(contador)
     }
-    numero++;
+    contador++
 }

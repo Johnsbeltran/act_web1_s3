@@ -1,11 +1,15 @@
-let numero = 1;
-let suma = 0;
-let contador = 0;
-while (numero <= 100) { 
-    if (numero % 2 === 0) { 
-        suma += numero;
-        contador++;
+const numero = 1;
+const sumaTotal = 0;
+const cantidadNumeros = 0;
+
+while (numero <= 100) {
+    if (numero % 2 === 0) {
+        sumaTotal += numero;
+        cantidadNumeros++;
     }
+
     numero++;
 }
-l
+
+console.log(`El total de la suma es: ${sumaTotal}`);
+console.log(`Se sumaron un total de ${cantidadNumeros} números pares.`);
