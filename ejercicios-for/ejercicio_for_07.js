@@ -17,7 +17,6 @@ for (let i = 0; i < filas; i++) {
   matriz.push(filaActual);
 }
 
-// Paso 3: Mostrar la matriz formateada
 for (let i = 0; i < filas; i++) {
   console.log(matriz[i].join("  "));
 }
