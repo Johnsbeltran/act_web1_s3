@@ -3,12 +3,9 @@
 
 const ALTURA_MAXIMA = 5;
 
-
 console.log("Parte creciente:");
 
-
 for (let numeroDeFila = 1; numeroDeFila <= ALTURA_MAXIMA; numeroDeFila++) {
-    
     
     const filaDeAsteriscos = "*".repeat(numeroDeFila);
     console.log(filaDeAsteriscos);
