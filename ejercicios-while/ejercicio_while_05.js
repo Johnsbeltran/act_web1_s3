@@ -14,14 +14,13 @@ function calcularFactorial(n) {
     return 1;
   }
 
-  // Inicializamos el resultado en 1 y un contador en el número dado.
   const resultado = 1;
   const i = n;
 
-  // Usamos un bucle while para multiplicar desde n hasta 1.
+  
   while (i > 0) {
-    resultado *= i; // resultado = resultado * i
-    i--; // Decrementamos el contador.
+    resultado *= i; 
+    i--; 
   }
 
   return resultado;
