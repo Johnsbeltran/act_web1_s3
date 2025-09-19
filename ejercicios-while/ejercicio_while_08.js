@@ -7,7 +7,6 @@ while (contador < 20) {
     console.log(a);
 
     const c = a + b;
-
     a = b;
     b = c;
 
