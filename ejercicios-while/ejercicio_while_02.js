@@ -7,7 +7,7 @@ while (numero <= 100) {
         sumaTotal += numero;
         cantidadNumeros++;
     }
-
+}
     numero++;
 }
 
