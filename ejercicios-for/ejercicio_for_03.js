@@ -6,7 +6,6 @@ const numeros = Array.from(
     { length: 20 }, 
     () => Math.floor(Math.random() * 100) + 1
 );
-
 console.log("Array de números:", numeros);
 
 const mayor = Math.max(...numeros);
