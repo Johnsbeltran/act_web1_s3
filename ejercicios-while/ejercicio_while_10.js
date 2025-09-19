@@ -6,7 +6,6 @@ let calificacionMasBaja = +Infinity;
 let calificacion = 0;
 
 console.log('Ingresa las calificaciones de los estudiantes (usa -1 para terminar).');
-
 while (calificacion !== -1) {
 
     calificacion = parseFloat(prompt('Ingresa una calificación:'));
