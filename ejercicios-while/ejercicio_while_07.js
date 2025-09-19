@@ -11,7 +11,6 @@ if (isNaN(numero)) {
 } else {
   const numTemp = Math.abs(numero);
 
-
   while (numTemp > 0) {
     numTemp = Math.floor(numTemp / 10);
     contador++;
